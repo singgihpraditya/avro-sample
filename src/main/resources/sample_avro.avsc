@@ -1,0 +1,10 @@
+{"namespace": "com.singgih.avro.generated",
+ "type": "record",
+ "name": "Person",
+ "fields": [
+     {"name": "id", "type": "int"},
+     {"name": "username",  "type": ["string", "null"]},
+     {"name": "email_address",  "type": ["string", "null"]},
+     {"name": "phone_number",  "type": ["string", "null"]}
+ ]
+}
